@@ -1,0 +1,34 @@
+.item1 {
+  grid-area: 600px;
+  font-size: 00px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 600px 600px 600px 600px;
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.grid-container div {
+  background-color: grey;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+	font-size: 70px ;
+}
+
+
+img{
+height: 300;
+width: 500;
+}
+
+.item1 {
+  grid-area: 600px;
+}
+

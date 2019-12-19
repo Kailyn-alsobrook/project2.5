@@ -1,0 +1,24 @@
+
+img{
+height: 300;
+width: 500;
+}
+
+.item1a {
+  grid-area:600px;
+  font-size:80px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-row: 600px 600px ;
+  grid-template-column: 300px 300px;
+  grid-gap: 10px;
+  padding: 10px; 
+  background-color: grey;
+}
+.item1a{border:black solid 2px;}
+.item2a{border:black solid 2px;}
+.item3a{border:black solid 2px; 
+text-align: right;}
+.item4a

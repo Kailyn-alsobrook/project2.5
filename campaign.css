@@ -1,0 +1,14 @@
+.item1a {
+  grid-area:600px;
+  font-size:80px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-row: 600px 600px 600px ;
+  grid-template-column: 800px;
+  background-color: grey;
+}
+.item1a{border:black solid 2px;}
+.item2a{border:black solid 2px;}
+.item3a{border:black solid 2px;}
